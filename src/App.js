@@ -37,7 +37,7 @@ function App() {
               </div>
             )}
           </div>
-          <div className='lg:w-3/5 relative py-10 px-4'>
+          <div className='lg:w-3/5 relative py-8 px-4'>
             <MainWeather />
             <StationsWeather />
             <SliderWeather />

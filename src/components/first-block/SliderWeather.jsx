@@ -29,6 +29,13 @@ function SliderWeather() {
                 <div className='slide'>
                   <span>{parseInt(weath.main.temp - 273.15)}°C</span>
                   <img src={imgCloud} alt='img' />
+                  <span>Sun</span>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='slide'>
+                  <span>{parseInt(weath.main.temp - 273.15)}°C</span>
+                  <img src={imgCloud} alt='img' />
                   <span>Mon</span>
                 </div>
               </SwiperSlide>
@@ -54,7 +61,7 @@ function SliderWeather() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='slide'>
+                <div className='max-w-[200px] flex flex-col items-center rounded-xl bg-white/10 border border-white py-4'>
                   <span>{parseInt(weath.main.temp - 273.15)}°C</span>
                   <img src={imgCloud} alt='img' />
                   <span>Fri</span>
@@ -65,13 +72,6 @@ function SliderWeather() {
                   <span>{parseInt(weath.main.temp - 273.15)}°C</span>
                   <img src={imgCloud} alt='img' />
                   <span>Sat</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className='max-w-[200px] flex flex-col items-center rounded-xl bg-white/10 border border-white py-4'>
-                  <span>{parseInt(weath.main.temp - 273.15)}°C</span>
-                  <img src={imgCloud} alt='img' />
-                  <span>Sun</span>
                 </div>
               </SwiperSlide>
             </div>

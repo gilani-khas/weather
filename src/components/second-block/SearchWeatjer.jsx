@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import geoImg from "../../image/geo.png";
 import searchImg from "../../image/search.png";
 
